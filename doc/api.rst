@@ -5,7 +5,7 @@ API
 Classes
 -------
 
-.. currentmodule:: shablona
+.. currentmodule:: patchy-optimizer
 
 .. autosummary::
    :template: class.rst
