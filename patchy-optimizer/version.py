@@ -72,4 +72,4 @@ MINOR = _version_minor
 MICRO = _version_micro
 VERSION = __version__
 PACKAGE_DATA = {'patchy-optimizer': [pjoin('data', '*')]}
-REQUIRES = ["numpy","scikit-learn (>=0.19.1)"]
+REQUIRES = ["numpy","sklearn"]
