@@ -1,5 +1,5 @@
-## patchy-optimizer
-[![Build Status](https://travis-ci.org/uwescience/patchy-optimizer.svg?branch=master)](https://travis-ci.org/uwescience/patchy-optimizer)
+## patchyoptimizer
+[![Build Status](https://travis-ci.org/uwescience/patchyoptimizer.svg?branch=master)](https://travis-ci.org/uwescience/patchyoptimizer)
 ### Project Overview
 
 This is a small project intended to wrap around Bayesian optimization, based on the Gaussian Process Regressor in scikit-learn.
@@ -10,11 +10,11 @@ The basic functionality is that it reads in specified data (or allows user input
 
 The project has the following structure:
 
-    patchy-optimizer/
+    patchyoptimizer/
       |- README.md
-      |- patchy-optimizer/
+      |- patchyoptimizer/
          |- __init__.py
-         |- patchy-optimizer.py
+         |- patchyoptimizer.py
          |- due.py
          |- data/
             |- ...

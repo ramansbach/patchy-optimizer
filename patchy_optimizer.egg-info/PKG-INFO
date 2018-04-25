@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: patchy-optimizer
+Version: 0.1.dev0
+Summary: patchy-optimizer: a template for small scientific Python projects
+Home-page: https://github.com/ramansbach/patchy-optimizer.git
+Author: R.A. Mansbach
+Author-email: ramansbach@gmail.com
+License: MIT
+Description: 
+        
+        Shablona
+        ========
+        Shablona is a template project for small scientific Python projects.
+        
+        It contains software implementations of an analysis of some simple data, but
+        more importantly, it contains infrastructure for testing, documentation,
+        continuous integration and deployment, which can be easily adapted
+        to use in other projects.
+        
+        To get started using these components in your own software, please go to the
+        repository README_.
+        
+        .. _README: https://github.com/uwescience/patchy-optimizer/blob/master/README.md
+        
+        License
+        =======
+        ``patchy-optimizer`` is licensed under the terms of the MIT license. See the file
+        "LICENSE" for information on the history of this software, terms & conditions
+        for usage, and a DISCLAIMER OF ALL WARRANTIES.
+        
+        All trademarks referenced herein are property of their respective holders.
+        
+        Copyright (c) 2018--, R.A. Mansbach, The University of Illinois at
+        Urbana-Champaign
+        
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires: numpy
+Requires: sklearn

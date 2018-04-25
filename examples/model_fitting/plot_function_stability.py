@@ -3,14 +3,14 @@
 Plotting model stability
 ========================
 
-Next we'll show off another demonstration of model fitting with patchy-optimizer.
+Next we'll show off another demonstration of model fitting with patchyoptimizer.
 We'll generate a bunch of data with varying levels of signal to noise, and then
 show the stability of the model coefficients for each set of data.
 """
 
 import numpy as np
 import matplotlib.pyplot as plt
-import patchy-optimizer as sb
+import patchyoptimizer as sb
 plt.style.use('ggplot')
 
 # Set seed for reproducibility

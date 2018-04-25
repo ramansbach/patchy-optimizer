@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+patchy_optimizer.egg-info/PKG-INFO
+patchy_optimizer.egg-info/SOURCES.txt
+patchy_optimizer.egg-info/dependency_links.txt
+patchy_optimizer.egg-info/requires.txt
+patchy_optimizer.egg-info/top_level.txt
+patchyoptimizer/__init__.py
+patchyoptimizer/due.py
+patchyoptimizer/version.py
+patchyoptimizer/tests/__init__.py
+patchyoptimizer/tests/test_patchy-optimizer.py

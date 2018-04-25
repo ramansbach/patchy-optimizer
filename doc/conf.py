@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# patchy-optimizer documentation build configuration file, created by
+# patchyoptimizer documentation build configuration file, created by
 # sphinx-quickstart on Tue Apr 14 10:29:06 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -17,7 +17,7 @@ import sys
 import os
 
 # General information about the project.
-project = 'patchy-optimizer'
+project = 'patchyoptimizer'
 copyright = '2015, Ariel Rokem'
 
 currentdir = os.path.abspath(os.path.dirname(__file__))
@@ -76,7 +76,7 @@ sphinx_gallery_conf = {
     # path where to save gallery generated examples
     'gallery_dirs': 'auto_examples',
     # To auto-generate example sections in the API
-    'doc_module': ('patchy-optimizer',),
+    'doc_module': ('patchyoptimizer',),
     # Auto-generated mini-galleries go here
     'backreferences_dir': 'gen_api'
 }
@@ -216,7 +216,7 @@ html_domain_indices = False
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'patchy-optimizerdoc'
+htmlhelp_basename = 'patchyoptimizerdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -236,7 +236,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'patchy-optimizer.tex', 'patchy-optimizer Documentation',
+  ('index', 'patchyoptimizer.tex', 'patchyoptimizer Documentation',
    'Ariel Rokem', 'manual'),
 ]
 
@@ -266,7 +266,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'patchy-optimizer', 'patchy-optimizer Documentation',
+    ('index', 'patchyoptimizer', 'patchyoptimizer Documentation',
      ['Ariel Rokem'], 1)
 ]
 
@@ -280,8 +280,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'patchy-optimizer', 'patchy-optimizer Documentation',
-   'Ariel Rokem', 'patchy-optimizer', 'One line description of project.',
+  ('index', 'patchyoptimizer', 'patchyoptimizer Documentation',
+   'Ariel Rokem', 'patchyoptimizer', 'One line description of project.',
    'Miscellaneous'),
 ]
 

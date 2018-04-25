@@ -26,7 +26,7 @@ CLASSIFIERS = ["Development Status :: 3 - Alpha",
                "Topic :: Scientific/Engineering"]
 
 # Description should be a one-liner:
-description = "patchyoptimizer: a template for small scientific Python projects"
+description = "patchy-optimizer: a template for small scientific Python projects"
 # Long description will go up on the pypi page
 long_description = """
 
@@ -42,11 +42,11 @@ to use in other projects.
 To get started using these components in your own software, please go to the
 repository README_.
 
-.. _README: https://github.com/uwescience/patchyoptimizer/blob/master/README.md
+.. _README: https://github.com/uwescience/patchy-optimizer/blob/master/README.md
 
 License
 =======
-``patchyoptimizer`` is licensed under the terms of the MIT license. See the file
+``patchy-optimizer`` is licensed under the terms of the MIT license. See the file
 "LICENSE" for information on the history of this software, terms & conditions
 for usage, and a DISCLAIMER OF ALL WARRANTIES.
 
@@ -56,12 +56,12 @@ Copyright (c) 2018--, R.A. Mansbach, The University of Illinois at
 Urbana-Champaign
 """
 
-NAME = "patchyoptimizer"
+NAME = "patchy-optimizer"
 MAINTAINER = "R.A. Mansbach"
 MAINTAINER_EMAIL = "ramansbach@gmail.com"
 DESCRIPTION = description
 LONG_DESCRIPTION = long_description
-URL = "https://github.com/ramansbach/patchyoptimizer.git"
+URL = "https://github.com/ramansbach/patchy-optimizer.git"
 DOWNLOAD_URL = ""
 LICENSE = "MIT"
 AUTHOR = "R.A. Mansbach"
@@ -71,5 +71,5 @@ MAJOR = _version_major
 MINOR = _version_minor
 MICRO = _version_micro
 VERSION = __version__
-PACKAGE_DATA = {'patchyoptimizer': [pjoin('data', '*')]}
+PACKAGE_DATA = {'patchy-optimizer': [pjoin('data', '*')]}
 REQUIRES = ["numpy","sklearn"]

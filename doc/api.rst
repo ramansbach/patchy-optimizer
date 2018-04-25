@@ -5,7 +5,7 @@ API
 Classes
 -------
 
-.. currentmodule:: patchy-optimizer
+.. currentmodule:: patchyoptimizer
 
 .. autosummary::
    :template: class.rst

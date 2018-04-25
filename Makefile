@@ -9,4 +9,4 @@ flake8:
 	@echo "flake8 passed"
 
 test:
-	py.test --pyargs patchy-optimizer --cov-report term-missing --cov=patchy-optimizer
+	py.test --pyargs patchyoptimizer --cov-report term-missing --cov=patchyoptimizer

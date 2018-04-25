@@ -87,17 +87,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/patchy-optimizer.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/patchyoptimizer.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/patchy-optimizer.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/patchyoptimizer.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/patchy-optimizer"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/patchy-optimizer"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/patchyoptimizer"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/patchyoptimizer"
 	@echo "# devhelp"
 
 epub:
